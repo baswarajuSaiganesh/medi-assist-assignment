@@ -1,0 +1,29 @@
+.unordered-list-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media (min-width: 762px) {
+  .unordered-list-4 {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.list-item-4 {
+  list-style-type: none;
+  height: 40x;
+  width: 200px;
+  border-radius: 10px;
+  border-top: 5px solid lightgray;
+  text-align: center;
+  margin: 15px;
+}
+
+.heading-4 {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

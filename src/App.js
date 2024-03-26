@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import BecomeACCAIn18Months from "./components/BecomeACCAIn18Months";
+import WhyChooseUs from "./components/WhyChooseUs";
+import ACCAEligibility from "./components/ACCAEligibility";
+import WhatWillWouLearnInACCA from "./components/WhatWillYouLearnInACCA";
+import PlacementAssistance from "./components/PlacementAssistance";
+import KickOffYourACCAPrepJourneyWithIndigoLearn from "./components/KickOffYourACCAPrepJourneyWithIndigoLearn";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+import "./App.css";
+
+const App = () => (
+  <div>
+    <Header />
+    <BecomeACCAIn18Months />
+    <WhyChooseUs />
+    <ACCAEligibility />
+    <WhatWillWouLearnInACCA />
+    <PlacementAssistance />
+    <KickOffYourACCAPrepJourneyWithIndigoLearn />
+  </div>
+);
 
 export default App;

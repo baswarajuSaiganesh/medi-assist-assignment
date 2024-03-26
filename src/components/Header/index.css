@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #04067a;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.company {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.company-name {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.unordered-list-1 {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.list-item-header {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.button-header {
+  color: black;
+  background-color: white;
+  height: 28px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
